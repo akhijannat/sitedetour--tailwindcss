@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+     <!-- Css link -->
+  <link rel="stylesheet" href="dist/output.css" />
+</head>
+<body>
+  
+    <nav class="fixed top-0 left-0 bg-white w-full shadow">
+      <div class="container m-auto md:py-3 flex justify-between items-center text-gray-700">
+        <!-- Sitedetour logo -->
+        <div class="transition duration-500 transform hover:scale-110">
+          <a href="#"><img src="img/sitedetour-logo.svg" class="w-52" alt="" /></a>
+        </div>
+
+        <div class="hidden md:flex items-center pr-10 text-case text-lg font-bold cursor-pointer">
+          <a class="text-colorBlue transition-all duration-300 hover:text-[#439af1] py-3 px-4">Home</a>
+          <a class="text-colorBlue transition-all duration-300 hover:text-[#439af1] py-3 px-4">Features</a>
+          <a class="text-colorBlue transition-all duration-300 hover:text-[#439af1] py-3 px-4">Pricing</a>
+          <a class="text-colorBlue transition-all duration-300 hover:text-[#439af1] py-3 px-4">Support</a>
+          <a class="text-colorBlue transition-all duration-300 hover:text-[#439af1] py-3 px-4">Resources</a>
+        </div>
+
+        <!-- Nav Button -->
+        <div class="text-lg font-bold">
+          <button type="button"
+            class="px-4 py-1.5 border border-[#439af1] rounded-md text-[#4391f1] hover:bg-[#439af1] transition duration-500 transform hover:text-white hover:drop-shadow-2xl">
+            Sing In
+          </button>
+          <button type="button"
+            class="px-4 py-1.5 border rounded-md text-white bg-black transition duration-500 transform hover:drop-shadow-2xl">
+            Try it Free
+          </button>
+        </div>
+
+        <!-- Responsive menu -->
+        <button class="block md:hidden py-3 px-4 mr-2 rounded focus:outline-none hover:bg-white group">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+          </svg>
+
+          <div class="absolute top-0 -right-full mx-auto h-screen w-8/12 bg-blue-100 font-bold border opacity-0 transform group-focus:right-0 group-focus:opacity-100 transition-all duration-300">
+            <div class="flex flex-col items-center w-full text-base cursor-pointer pt-10">
+              <a class="py-4 px-6 w-full text-colorBlue transition-all duration-300 hover:text-[#439af1]">Home</a>
+              <a class="py-4 px-6 w-full text-colorBlue transition-all duration-300 hover:text-[#439af1]">Features</a>
+              <a class="py-4 px-6 w-full text-colorBlue transition-all duration-300 hover:text-[#439af1]">Pricing</a>
+              <a class="py-4 px-6 w-full text-colorBlue transition-all duration-300 hover:text-[#439af1]">Support</a>
+              <a class="py-4 px-6 w-full text-colorBlue transition-all duration-300 hover:text-[#439af1]">Resources</a>
+            </div>
+          </div>
+        </button>
+      </div>
+    </nav>
+</body>
+</html>
